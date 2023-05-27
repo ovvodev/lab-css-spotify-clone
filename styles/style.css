@@ -6,3 +6,156 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    z-index: 950;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: rgba(247, 247, 247, 0.8);
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+nav img {
+    width: auto;
+    height: 60px;
+    padding: 10px 0px 0px 30px;
+}
+
+nav ul {
+    align-self: center;
+}
+
+nav li {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav li a {
+    text-decoration: none;
+    justify-content: flex-end;
+    padding: 10px;
+    color: black;
+
+}
+
+#header-moto {
+    z-index: 900;
+    position: relative;
+    top: 50px;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#header-moto h1 {
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+#header-moto p {
+    color: white;
+}
+
+main {
+    margin-top: 110px;
+}
+
+main h3 {
+    margin: auto;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    width: 180px;
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: 2px solid #00B172;
+
+}
+
+main section div {
+    width: 160px;
+    margin-top: 20px;
+}
+
+main section {
+    justify-content: space-evenly;
+    flex: 1 1 0px;
+}
+
+main section img {
+    width: 60px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+main h4,
+main p {
+    text-align: center;
+}
+
+main h4 {
+    color: #00B172;
+}
+
+footer {
+    background-color: #00B172;
+    color: white;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-icon {
+    width: 70px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+
+}
+
+#footer-app {
+    width: 200px;
+    height: auto;
+    padding-top: 30%;
+
+}
+
+footer div {
+    padding: 30px 40px;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid white;
+    width: 60%;
+    padding-bottom: 15px;
+}
+
+footer p {
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+
+}
