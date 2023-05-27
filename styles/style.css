@@ -128,16 +128,16 @@ footer {
 }
 
 #footer-icon {
-    width: 70px;
+    width: 90px;
     height: auto;
     position: absolute;
     left: 50%;
-    bottom: 50%;
+    bottom: 40%;
 
 }
 
 #footer-app {
-    width: 200px;
+    width: 230px;
     height: auto;
     padding-top: 30%;
 
@@ -155,7 +155,7 @@ footer h3 {
 }
 
 footer p {
-    width: 40%;
+    width: 50%;
     font-family: 'Roboto', sans-serif;
 
 }
